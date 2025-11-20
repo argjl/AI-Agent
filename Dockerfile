@@ -14,4 +14,4 @@ COPY app ./app
 EXPOSE 8080
 
 # Start the server
-CMD ["uvicorn", "app.server:app", "--host", "0.0.0.0", "--port", "8080"]
+CMD ["uvicorn", "app.server:app", "--host", "0.0.0.0", "--port", "10000"]
